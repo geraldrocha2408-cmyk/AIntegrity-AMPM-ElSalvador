@@ -1,0 +1,16 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+      "composite": true,
+      "incremental": true
+    },
+    "files": [],
+    "references": [
+      {
+        "path": "./tsconfig.app.json"
+      },
+      {
+        "path": "./tsconfig.node.json"
+      }
+    ]
+  }
